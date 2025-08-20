@@ -1,0 +1,62 @@
+.about-section {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #111827, #1f2937, #000);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 800px;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.about-title span {
+  color: #6366f1;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #d1d5db;
+  margin-bottom: 2rem;
+}
+
+.about-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.about-links a {
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.about-links a.github {
+  background: #6366f1;
+}
+
+.about-links a.github:hover {
+  background: #4f46e5;
+}
+
+.about-links a.linkedin {
+  background: #374151;
+}
+
+.about-links a.linkedin:hover {
+  background: #4b5563;
+}

@@ -9,10 +9,9 @@ const About = () => {
           About <span>Me</span>
         </h2>
         <p className="about-text">
-          I’m an enthusiastic developer with experience in 
-          <strong> React</strong>, <strong>Front-end Developer</strong> and <strong>UI/UX design</strong>. 
-          I enjoy building modern, responsive, and user-friendly web applications 
-          that make a difference.
+          Experience in 
+          <strong> UI/UX Design</strong>, <strong>Front-end Developer</strong> and <strong>UI/UX design</strong>. 
+        
         </p>
         <div className="about-links">
           <a href="https://github.com/bereketta/" className="github" target="_blank" rel="noreferrer">
